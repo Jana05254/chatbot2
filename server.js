@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // مفتاح OpenAI ضعيه هنا
-const OPENAI_API_KEY = 'ضع-مفتاحك-هنا';
+const OPENAI_API_KEY = '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';
 
 app.use(cors());
 app.use(express.json());
